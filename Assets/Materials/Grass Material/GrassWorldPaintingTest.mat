@@ -29,12 +29,15 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _DISABLE_DECALS
+  - _DISABLE_SSR
   - _DISABLE_SSR_TRANSPARENT
+  - _DOUBLESIDED_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2225
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2000
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
@@ -43,7 +46,7 @@ Material:
   - TransparentBackface
   - RayTracingPrepass
   - MOTIONVECTORS
-  m_LockedProperties: 
+  m_LockedProperties: _MicroFrequency _Speed
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -69,41 +72,71 @@ Material:
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
-    - _Amp: 1
+    - _Amp: 1.02
+    - _BaseColorHeight: 2.24
     - _BlendMode: 0
     - _ConservativeDepthOffsetEnable: 0
-    - _CullMode: 2
-    - _CullModeForward: 2
+    - _CullMode: 0
+    - _CullModeForward: 0
+    - _DepthColorMultiplier: 1.36
     - _DepthOffsetEnable: 0
-    - _DoubleSidedEnable: 0
+    - _Direction: 0
+    - _DoubleSidedEnable: 1
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
-    - _Frequency: 1.26
-    - _GradientNoiseScale: 86.8
+    - _Float: 0
+    - _Frequency: 1
+    - _GlobalHeightMasking: 16.1
+    - _GlobalWindAmp: 0.65
+    - _GradientNoiseScale: 10.49
+    - _Height: 100
+    - _HeightColorMasking: 3
+    - _IndividualAmp: 5.73
+    - _IndividualHeightEffect: 1
+    - _Individual_Speed: 1
+    - _InidividualFrequency: 0.15
+    - _LerpValue: 0.258
+    - _MicroAmp: 0.3
+    - _MicroFrequency: 0.3
+    - _MicroHeightMasking: 20
+    - _MicroNoiseScale: 0.1
+    - _MicroSpeed: 12.53
+    - _MicroWindAmp: 5
+    - _MicroWindDirection: 0
+    - _MicroWindNoiseScale: 0.65
+    - _MicroWindSpeed: 2
+    - _MicrolHeightEffect: 5
+    - _NoiseLerp: 0
+    - _NoiseStrenght: 1.63
+    - _NoiseVIsualizationLerp: 1
     - _OpaqueCullMode: 2
     - _RayTracing: 0
-    - _ReceivesSSR: 1
+    - _ReceivesSSR: 0
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Speed: 0.85
+    - _Scale: 56.37
+    - _SimpleNoiseScale: 300
+    - _SinWindDirection: 134
+    - _Speed: 2.12
     - _SrcBlend: 1
     - _StencilRef: 0
-    - _StencilRefDepth: 8
+    - _StencilRefDepth: 0
     - _StencilRefDistortionVec: 4
-    - _StencilRefGBuffer: 10
-    - _StencilRefMV: 40
+    - _StencilRefGBuffer: 2
+    - _StencilRefMV: 32
     - _StencilWriteMask: 6
     - _StencilWriteMaskDepth: 9
     - _StencilWriteMaskDistortionVec: 4
     - _StencilWriteMaskGBuffer: 15
     - _StencilWriteMaskMV: 41
-    - _SupportDecals: 1
+    - _Strenght: 0.162
+    - _SupportDecals: 0
     - _SurfaceType: 0
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
@@ -113,16 +146,37 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
+    - _VoronoiScale: 1
+    - _WindDirection: 354
+    - _WindSpeed_1: 1.5
+    - _YOff: 0.5
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _Color1: {r: 0.1337097, g: 0.4716981, b: 0, a: 0}
-    - _Color2: {r: 0.5210036, g: 0.7075472, b: 0, a: 0}
-    - _Color3: {r: 0.33690813, g: 0.6320754, b: 0.34488565, a: 0}
-    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _BaseColor: {r: 0.2924528, g: 0.13507354, b: 0.11725702, a: 0}
+    - _Color1: {r: 0.41204426, g: 0.7075472, b: 0.4038359, a: 0}
+    - _Color2: {r: 0.2756764, g: 0.5566038, b: 0.2886525, a: 0}
+    - _Color3: {r: 1, g: 0.11258277, b: 0, a: 0}
+    - _ColorNoiseScale: {r: 400, g: 400, b: 0, a: 0}
+    - _ColorNoiseScale_1: {r: 20, g: 20, b: 0, a: 0}
+    - _Contrast: {r: -40, g: 40, b: 0, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Noise_Scale: {r: 40, g: 40, b: 0, a: 0}
-    - _XY: {r: 0, g: 0.54, b: 0, a: 0}
+    - _FarColor: {r: 0.76894, g: 1, b: 0.6745283, a: 0}
+    - _GradientDistance: {r: 0, g: 116.41, b: 0, a: 0}
+    - _NearColor: {r: 0.754717, g: 0.4022784, b: 0.44049463, a: 0}
+    - _NoiseColor: {r: 0.7075472, g: 0, b: 0.11376278, a: 0}
+    - _NoiseXY: {r: 5, g: 5, b: 0, a: 0}
+    - _Noise_Scale: {r: 500, g: 500, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset_1: {r: -13.13, g: 1, b: 0, a: 0}
+    - _SmoothStep: {r: -0.5, g: 1.15, b: 0, a: 0}
+    - _Strenght_1: {r: 13.1, g: 5.23, b: 0, a: 0}
+    - _WindColor1: {r: 1, g: 1, b: 1, a: 0}
+    - _WindColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _WindSpeed: {r: 1, g: 0, b: 0, a: 0}
+    - _WindVector: {r: 0, g: 0, b: 0, a: 0}
+    - _XY: {r: 0.7, g: 2.38, b: 0, a: 0}
   m_BuildTextureStacks: []
