@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.cyanilux.shadergraph-to-png": {
+      "version": "https://github.com/Cyanilux/ShaderGraphToPNG.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "2ec7eafd6650660b0201c862aa90e4295f3b47c6"
+    },
     "com.unity.burst": {
       "version": "1.8.12",
       "depth": 1,
@@ -95,6 +102,15 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.recorder": {
+      "version": "4.0.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.render-pipelines.core": {
       "version": "14.0.10",
       "depth": 1,
@@ -130,6 +146,12 @@
       "dependencies": {
         "com.unity.render-pipelines.core": "14.0.10"
       }
+    },
+    "com.unity.rendering.denoising": {
+      "version": "1.0.2",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
     },
     "com.unity.searcher": {
       "version": "4.9.2",

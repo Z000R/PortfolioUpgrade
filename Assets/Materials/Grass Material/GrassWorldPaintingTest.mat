@@ -72,13 +72,13 @@ Material:
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
-    - _Amp: 0.85
+    - _Amp: 1
     - _BaseColorHeight: 2.24
     - _BlendMode: 0
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 0
     - _CullModeForward: 0
-    - _DepthColorMultiplier: 0.94
+    - _DepthColorMultiplier: 0.16
     - _DepthOffsetEnable: 0
     - _Direction: 0
     - _DoubleSidedEnable: 1
@@ -89,12 +89,12 @@ Material:
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
     - _Float: 0
-    - _Frequency: 1.4
-    - _GlobalHeightMasking: 50
-    - _GlobalWindAmp: 500
-    - _GradientNoiseScale: -8.54
+    - _Frequency: 6
+    - _GlobalHeightMasking: 80
+    - _GlobalWindAmp: 800
+    - _GradientNoiseScale: 7.82
     - _Height: 100
-    - _HeightColorMasking: 3
+    - _HeightColorMasking: 4.67
     - _IndividualAmp: 5.73
     - _IndividualHeightEffect: 1
     - _Individual_Speed: 1
@@ -110,9 +110,9 @@ Material:
     - _MicroWindNoiseScale: 0.65
     - _MicroWindSpeed: 2
     - _MicrolHeightEffect: 5
-    - _NoiseLerp: 1
+    - _NoiseLerp: 0.559
     - _NoiseStrenght: 1.63
-    - _NoiseVIsualizationLerp: 0
+    - _NoiseVIsualizationLerp: 0.064
     - _OpaqueCullMode: 2
     - _RayTracing: 0
     - _ReceivesSSR: 0
@@ -122,7 +122,7 @@ Material:
     - _RequireSplitLighting: 0
     - _Scale: 56.37
     - _SimpleNoiseScale: 300
-    - _SinWindDirection: 178
+    - _SinWindDirection: 0
     - _Speed: 2.12
     - _SrcBlend: 1
     - _StencilRef: 0
@@ -146,8 +146,8 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
-    - _VoronoiScale: 1
-    - _WindDirection: 88
+    - _VoronoiScale: 1.97
+    - _WindDirection: 175
     - _WindSpeed_1: 1.5
     - _YOff: 0.5
     - _ZTestDepthEqualForOpaque: 3
@@ -155,7 +155,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.2924528, g: 0.13507354, b: 0.11725702, a: 0}
+    - _BaseColor: {r: 0.05490196, g: 0, b: 0.012026454, a: 0}
     - _Color1: {r: 0.41204426, g: 0.7075472, b: 0.4038359, a: 0}
     - _Color2: {r: 0.2756764, g: 0.5566038, b: 0.2886525, a: 0}
     - _Color3: {r: 1, g: 0.11258277, b: 0, a: 0}
@@ -164,18 +164,18 @@ Material:
     - _Contrast: {r: -40, g: 40, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FarColor: {r: 0.76894, g: 1, b: 0.6745283, a: 0}
-    - _GradientDistance: {r: 0, g: 116.41, b: 0, a: 0}
-    - _NearColor: {r: 0.754717, g: 0.4022784, b: 0.44049463, a: 0}
+    - _FarColor: {r: 0.8741994, g: 1, b: 0.19339621, a: 0}
+    - _GradientDistance: {r: 0, g: 180, b: 0, a: 0}
+    - _NearColor: {r: 0, g: 0.7169812, b: 0.17668134, a: 0}
     - _NoiseColor: {r: 0.7075472, g: 0, b: 0.11376278, a: 0}
-    - _NoiseXY: {r: 5, g: 5, b: 0, a: 0}
+    - _NoiseXY: {r: 1, g: 1, b: 0, a: 0}
     - _Noise_Scale: {r: 500, g: 500, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: -13.13, g: 1, b: 0, a: 0}
     - _SmoothStep: {r: -0.5, g: 1.15, b: 0, a: 0}
     - _Strenght_1: {r: 13.1, g: 5.23, b: 0, a: 0}
-    - _WindColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _WindColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _WindColor1: {r: 0.14149593, g: 0.6320754, b: 0.11627804, a: 0}
+    - _WindColor2: {r: 0.42149526, g: 0.6792453, b: 0.3236027, a: 0}
     - _WindSpeed: {r: -1, g: 0, b: 0, a: 0}
     - _WindVector: {r: 0, g: 0, b: 0, a: 0}
     - _XY: {r: 0.7, g: 2.38, b: 0, a: 0}

@@ -15,6 +15,7 @@ MonoBehaviour:
   components:
   - {fileID: 294343810887831868}
   - {fileID: 1007927071808131000}
+  - {fileID: 6032157119418334524}
 --- !u!114 &294343810887831868
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -36,7 +37,7 @@ MonoBehaviour:
     m_Value: 0
   skyAmbientMode:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 0
   windOrientation:
     m_OverrideState: 1
     m_Value: 0
@@ -63,14 +64,14 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   skyIntensityMode:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 2
   exposure:
     m_OverrideState: 0
     m_Value: 0
   multiplier:
     m_OverrideState: 1
-    m_Value: 1.69
+    m_Value: 5.12
   upperHemisphereLuxValue:
     m_OverrideState: 0
     m_Value: 1
@@ -121,16 +122,16 @@ MonoBehaviour:
     m_Value: 55261.973
   aerosolDensity:
     m_OverrideState: 1
-    m_Value: 0.09
+    m_Value: 0.715
   aerosolTint:
     m_OverrideState: 1
-    m_Value: {r: 0, g: 1, b: 0.93292975, a: 1}
+    m_Value: {r: 0, g: 0.97121596, b: 1, a: 1}
   aerosolMaximumAltitude:
     m_OverrideState: 0
     m_Value: 8289.296
   aerosolAnisotropy:
     m_OverrideState: 1
-    m_Value: -0.3
+    m_Value: -0.49
   groundTint:
     m_OverrideState: 0
     m_Value: {r: 0.07075471, g: 0.94690037, b: 1, a: 1}
@@ -179,4 +180,92 @@ MonoBehaviour:
   m_SkyVersion: 1
   m_ObsoleteEarthPreset:
     m_OverrideState: 0
+    m_Value: 1
+--- !u!114 &6032157119418334524
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953beb541740ddc499d005ee80c9ff29, type: 3}
+  m_Name: Fog
+  m_EditorClassIdentifier: 
+  active: 1
+  quality:
+    m_OverrideState: 1
+    m_Value: 3
+  enabled:
+    m_OverrideState: 1
+    m_Value: 1
+  colorMode:
+    m_OverrideState: 1
+    m_Value: 0
+  color:
+    m_OverrideState: 0
+    m_Value: {r: 0.19430755, g: 1, b: 0.18396229, a: 1}
+  tint:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  maxFogDistance:
+    m_OverrideState: 1
+    m_Value: 5000
+  mipFogMaxMip:
+    m_OverrideState: 0
+    m_Value: 0.5
+  mipFogNear:
+    m_OverrideState: 0
+    m_Value: 0
+  mipFogFar:
+    m_OverrideState: 0
+    m_Value: 1000
+  baseHeight:
+    m_OverrideState: 1
+    m_Value: 10.7
+  maximumHeight:
+    m_OverrideState: 1
+    m_Value: 190.5
+  meanFreePath:
+    m_OverrideState: 1
+    m_Value: 1276.17
+  enableVolumetricFog:
+    m_OverrideState: 1
+    m_Value: 1
+  albedo:
+    m_OverrideState: 1
+    m_Value: {r: 0.759434, g: 1, b: 0.84401643, a: 1}
+  globalLightProbeDimmer:
+    m_OverrideState: 1
+    m_Value: 1
+  depthExtent:
+    m_OverrideState: 1
+    m_Value: 153.3
+  denoisingMode:
+    m_OverrideState: 1
+    m_Value: 3
+  anisotropy:
+    m_OverrideState: 0
+    m_Value: 0.25
+  sliceDistributionUniformity:
+    m_OverrideState: 0
+    m_Value: 0.75
+  m_FogControlMode:
+    m_OverrideState: 1
+    m_Value: 0
+  screenResolutionPercentage:
+    m_OverrideState: 0
+    m_Value: 12.5
+  volumeSliceCount:
+    m_OverrideState: 0
+    m_Value: 64
+  m_VolumetricFogBudget:
+    m_OverrideState: 1
+    m_Value: 1
+  m_ResolutionDepthRatio:
+    m_OverrideState: 1
+    m_Value: 1
+  directionalLightsOnly:
+    m_OverrideState: 1
     m_Value: 1
