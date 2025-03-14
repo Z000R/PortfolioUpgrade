@@ -78,7 +78,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Absorption_Distance: 1.77
+    - _Absorption_Distance: 6.27
     - _AddPrecomputedVelocity: 0
     - _Alpha: 0
     - _AlphaCutoffEnable: 0
@@ -97,15 +97,15 @@ Material:
     - _DstBlend: 10
     - _Edge1: 0.5
     - _Edge1_1: 0
-    - _Edge2: 1.55
+    - _Edge2: 1.8
     - _Edge2_1: 0.38
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
-    - _Fresnel_Power: 0.52
+    - _Fresnel_Power: 2.44
     - _Fresnel_Power_1: 0.88
-    - _IOR: 1.2
-    - _Normal_Strength: 1
+    - _IOR: 1.4
+    - _Normal_Strength: 0.622
     - _OpaqueCullMode: 2
     - _RayTracing: 0
     - _ReceivesSSR: 1
@@ -114,6 +114,7 @@ Material:
     - _RenderQueueType: 4
     - _RequireSplitLighting: 0
     - _Smoothness_Noise_Scale: 16.7
+    - _Smoothness_Strength: 3.1
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0
@@ -127,8 +128,8 @@ Material:
     - _StencilWriteMaskMV: 41
     - _SupportDecals: 0
     - _SurfaceType: 1
-    - _Thickness: 1.18
-    - _TransmissionNoiseScale: 5.05
+    - _Thickness: 5
+    - _TransmissionNoiseScale: 13.6
     - _Transmission_Strength: 0
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
@@ -149,7 +150,7 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Fresnel_Color: {r: 0.7830189, g: 0.23777537, b: 0, a: 0}
     - _Noise_Color: {r: 1, g: 0.85882354, b: 0, a: 0}
-    - _Transmission_Color: {r: 1, g: 0.3246073, b: 0, a: 0}
+    - _Transmission_Color: {r: 1, g: 0.73987746, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2340344311230904069
 MonoBehaviour:

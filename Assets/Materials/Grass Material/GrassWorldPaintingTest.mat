@@ -92,7 +92,7 @@ Material:
     - _Frequency: 6
     - _GlobalHeightMasking: 80
     - _GlobalWindAmp: 800
-    - _GradientNoiseScale: 7.82
+    - _GradientNoiseScale: 7
     - _Height: 100
     - _HeightColorMasking: 4.67
     - _IndividualAmp: 5.73
@@ -112,7 +112,7 @@ Material:
     - _MicrolHeightEffect: 5
     - _NoiseLerp: 0.559
     - _NoiseStrenght: 1.63
-    - _NoiseVIsualizationLerp: 0.064
+    - _NoiseVIsualizationLerp: 0.012
     - _OpaqueCullMode: 2
     - _RayTracing: 0
     - _ReceivesSSR: 0
@@ -164,9 +164,9 @@ Material:
     - _Contrast: {r: -40, g: 40, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FarColor: {r: 0.8741994, g: 1, b: 0.19339621, a: 0}
-    - _GradientDistance: {r: 0, g: 180, b: 0, a: 0}
-    - _NearColor: {r: 0, g: 0.7169812, b: 0.17668134, a: 0}
+    - _FarColor: {r: 1, g: 0.7008205, b: 0, a: 0}
+    - _GradientDistance: {r: 0, g: 100, b: 0, a: 0}
+    - _NearColor: {r: 1, g: 0.26472375, b: 0.25943398, a: 0}
     - _NoiseColor: {r: 0.7075472, g: 0, b: 0.11376278, a: 0}
     - _NoiseXY: {r: 1, g: 1, b: 0, a: 0}
     - _Noise_Scale: {r: 500, g: 500, b: 0, a: 0}
@@ -174,8 +174,8 @@ Material:
     - _Offset_1: {r: -13.13, g: 1, b: 0, a: 0}
     - _SmoothStep: {r: -0.5, g: 1.15, b: 0, a: 0}
     - _Strenght_1: {r: 13.1, g: 5.23, b: 0, a: 0}
-    - _WindColor1: {r: 0.14149593, g: 0.6320754, b: 0.11627804, a: 0}
-    - _WindColor2: {r: 0.42149526, g: 0.6792453, b: 0.3236027, a: 0}
+    - _WindColor1: {r: 0.98942024, g: 1, b: 0.5801887, a: 0}
+    - _WindColor2: {r: 0.8018868, g: 0, b: 0, a: 0}
     - _WindSpeed: {r: -1, g: 0, b: 0, a: 0}
     - _WindVector: {r: 0, g: 0, b: 0, a: 0}
     - _XY: {r: 0.7, g: 2.38, b: 0, a: 0}

@@ -15,7 +15,7 @@ MonoBehaviour:
   active: 0
   quality:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 2
   enabled:
     m_OverrideState: 1
     m_Value: 1
@@ -27,28 +27,28 @@ MonoBehaviour:
     m_Value: 2
   m_MinSmoothness:
     m_OverrideState: 1
-    m_Value: 0.9
+    m_Value: 0.642
   m_SmoothnessFadeStart:
     m_OverrideState: 1
-    m_Value: 0.9
+    m_Value: 1
   reflectSky:
     m_OverrideState: 1
     m_Value: 1
   usedAlgorithm:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   depthBufferThickness:
     m_OverrideState: 1
-    m_Value: 0.01
+    m_Value: 0.185
   screenFadeDistance:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0.175
   accumulationFactor:
     m_OverrideState: 1
-    m_Value: 0.75
+    m_Value: 0.651
   biasFactor:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0.453
   speedRejectionParam:
     m_OverrideState: 1
     m_Value: 0.5
@@ -69,7 +69,7 @@ MonoBehaviour:
     m_Value: 0
   m_RayMaxIterations:
     m_OverrideState: 1
-    m_Value: 32
+    m_Value: 64
   rayMiss:
     m_OverrideState: 1
     m_Value: 3
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31394aa05878563408489d5c1688f3a0, type: 3}
   m_Name: PathTracing
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enable:
     m_OverrideState: 1
     m_Value: 1
@@ -140,16 +140,16 @@ MonoBehaviour:
       m_Bits: 4294967295
   maximumSamples:
     m_OverrideState: 1
-    m_Value: 2500
+    m_Value: 10000
   minimumDepth:
     m_OverrideState: 1
     m_Value: 1
   maximumDepth:
     m_OverrideState: 1
-    m_Value: 6
+    m_Value: 3
   maximumIntensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 10
   denoising:
     m_OverrideState: 1
     m_Value: 2
@@ -190,24 +190,9 @@ MonoBehaviour:
   - {fileID: 7547066932729964152}
   - {fileID: 8341589849702345707}
   - {fileID: -6649517639122225672}
-  - {fileID: 2231263673324820299}
   - {fileID: 2454219731540022202}
---- !u!114 &2231263673324820299
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e17fad69ea181b4483974138b566975, type: 3}
-  m_Name: ScreenSpaceRefraction
-  m_EditorClassIdentifier: 
-  active: 0
-  screenFadeDistance:
-    m_OverrideState: 1
-    m_Value: 0.1
+  - {fileID: 2715423936414041440}
+  - {fileID: 8554294688072820098}
 --- !u!114 &2454219731540022202
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -220,7 +205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9008a067f4d626c4d8bc4bc48f04bb89, type: 3}
   m_Name: ScreenSpaceAmbientOcclusion
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   quality:
     m_OverrideState: 1
     m_Value: 3
@@ -289,6 +274,22 @@ MonoBehaviour:
   m_DenoiserRadius:
     m_OverrideState: 1
     m_Value: 0.65
+--- !u!114 &2715423936414041440
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e17fad69ea181b4483974138b566975, type: 3}
+  m_Name: ScreenSpaceRefraction
+  m_EditorClassIdentifier: 
+  active: 0
+  screenFadeDistance:
+    m_OverrideState: 1
+    m_Value: 0.523
 --- !u!114 &5493643122449877097
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -317,13 +318,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 464ccca2a3ef3ce429c63a5b5cd3be58, type: 3}
   m_Name: SubSurfaceScattering
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   rayTracing:
     m_OverrideState: 1
     m_Value: 1
   sampleCount:
     m_OverrideState: 1
-    m_Value: 19
+    m_Value: 32
 --- !u!114 &8341589849702345707
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -432,13 +433,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d877a03bef431a847adca8ab343db3e1, type: 3}
   m_Name: RayTracingSettings
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   rayBias:
     m_OverrideState: 1
-    m_Value: 0.01
+    m_Value: 0.0206
   distantRayBias:
     m_OverrideState: 1
-    m_Value: 0.0284
+    m_Value: 0.0675
   extendShadowCulling:
     m_OverrideState: 1
     m_Value: 0
@@ -460,3 +461,42 @@ MonoBehaviour:
   cullingDistance:
     m_OverrideState: 1
     m_Value: 1000
+--- !u!114 &8554294688072820098
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a79c9cffef5cc469553b1341c2ecdf, type: 3}
+  m_Name: RecursiveRendering
+  m_EditorClassIdentifier: 
+  active: 0
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  layerMask:
+    m_OverrideState: 0
+    m_Value:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  maxDepth:
+    m_OverrideState: 0
+    m_Value: 4
+  rayLength:
+    m_OverrideState: 0
+    m_Value: 10
+  minSmoothness:
+    m_OverrideState: 0
+    m_Value: 0.5
+  rayMiss:
+    m_OverrideState: 0
+    m_Value: 3
+  lastBounce:
+    m_OverrideState: 0
+    m_Value: 3
+  ambientProbeDimmer:
+    m_OverrideState: 0
+    m_Value: 1
